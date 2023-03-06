@@ -9,4 +9,4 @@ if (numeroA > numeroB && numeroA > numeroC ) {
     document.write ('El numero mayor es ' + numeroC)
 }else{
     document.write ('Los tres numeros son iguales')
-}
+};
