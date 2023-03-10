@@ -1,5 +1,5 @@
-const filas = prompt('Ingrese el numero de filas');
-const columnas = prompt('Ingrese el numero de columnas');
+const filas = parseInt(prompt('Ingrese el numero de filas');)
+const columnas = parseInt(prompt('Ingrese el numero de columnas');) 
 let numeroCeldas = filas * columnas;
 document.write('<table><tbody>');
 for (let indiceFilas=0; indiceFilas < filas; indiceFilas++){
