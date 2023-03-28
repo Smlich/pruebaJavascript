@@ -1,19 +1,19 @@
-function Persona(nombre,edad,dni,sexo,peso,altura,añoNacimiento){
+function Persona(nombre,edad,dni,sexo,peso,altura,anioNacimiento){
     this.nombre = nombre
     this.edad = edad
     this.dni = dni
     this.sexo = sexo
     this.peso = peso
     this.altura = altura
-    this.añoNacimiento = añoNacimiento
+    this.anioNacimiento = anioNacimiento
     this.mostarGeneracion = function(){
-        if(añoNacimiento >= 1994){
+        if(anioNacimiento >= 1994){
             document.write('Pertenece a la generacion Z y su caracteristica es la Irreverencia. <br/>')
-        }else if(añoNacimiento >= 1981){
+        }else if(anioNacimiento >= 1981){
             document.write('Pertenece a la generacion Y y su caracteristica es la Frustracion. <br/>')
-        }else if(añoNacimiento >= 1969){
+        }else if(anioNacimiento >= 1969){
             document.write('Pertenece a la generacion X y su caracteristica es la Obsecion por el exito. <br/>')
-        }else if(añoNacimiento >= 1949){
+        }else if(anioNacimiento >= 1949){
             document.write('Pertenece a la generacion Baby Boom y su caracteristica es la Ambición. <br/>')
         }else{
             document.write('Pertenece a la generacion Silent y su caracteristica es la Austeridad. <br/>')
