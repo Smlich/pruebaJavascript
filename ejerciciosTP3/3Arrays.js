@@ -11,7 +11,7 @@ let sumanNueve = 0
 let sumanDiez = 0
 let sumanOnce = 0
 let sumanDose = 0
-for(i = 0;i < 1000; i++ ){
+for(i = 0;i < 100; i++ ){
     dadoUno = Math.floor(Math.random()*6)+1
     dadoDos = Math.floor(Math.random()*6)+1
     sumaDados.push(dadoUno + dadoDos)
