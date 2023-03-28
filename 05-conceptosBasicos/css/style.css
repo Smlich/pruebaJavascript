@@ -1,6 +1,6 @@
 tr {
     border: 2px solid black;
 }
-td {
+td,th {
     border: 2px dotted red;
 }
