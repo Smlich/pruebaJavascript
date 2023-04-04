@@ -90,6 +90,12 @@ class Avion{
     }
 }
 const aeropuerto1 = new Aeropuerto('Aeropuerto Internacional')
-const aviond1 = new Avion('Boing717', 2, 'Hawai')
-aeropuerto1.agregarAvion(aviond1)
-aeropuerto1.buscarAvion('Boing')
+const avion1 = new Avion('Boing717', 50, 'Hawai')
+const avion2 = new Avion('Concord', 20, 'Tucuman')
+const avion3 = new Avion('AvionGenerico', 25, 'Salta')
+aeropuerto1.agregarAvion(avion1)
+aeropuerto1.agregarAvion(avion2)
+aeropuerto1.agregarAvion(avion3)
+aeropuerto1.buscarAvion('Boing717')
+avion1.abordar('Juan Pedrito')
+aeropuerto1.buscarAvion('Boing717')
